@@ -1,0 +1,248 @@
+* {
+  /* CURSOR HERE */
+  /* cursor: url("wand.png"), crosshair !important; */
+}
+
+@font-face {
+  font-family: "Sans-serif";
+  src: url(../fonts/PORNHUT_.TTF);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.content-area {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(228, 25, 187, 0.829);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-background {
+  background-image: url("../images/bg.webp");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.alpha-darken-bg {
+  background-color: rgba(70, 30, 30, 0.829);
+}
+
+a {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#dank-memes > a {
+  background-color: transparent;
+}
+
+#dank-memes img {
+  /* box-shadow: 0.06rem 0.12rem 0 rgba(200, 100, 100, 0.5), 0 0.06rem 0 rgba(200, 100, 100, 0.5),
+      0 0 5px rgba(0, 0, 0, 0.4); */
+  transition: ease-in-out 0.2s;
+}
+
+#dank-memes img:hover {
+  filter: hue-rotate(90deg);
+  transform: translateY(-8pt);
+  box-shadow: 0.06rem 0.12rem 0 rgba(200, 100, 100, 0.5),
+    0 0.06rem 0 rgba(200, 100, 100, 0.5), 0 9pt 8px rgba(0, 0, 0, 0.28);
+}
+
+.header-img {
+  max-height: 18px;
+}
+
+div.content-area {
+  padding: 1%;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.top-nav {
+  font-weight: bold;
+}
+
+.uniqueThingStyling {
+  font-family: "Sans-serif";
+  font-weight: 100;
+  background: #ffffff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -1em;
+}
+
+h2 {
+  font-family: "Sans-serif";
+  font-weight: 100;
+}
+
+/* snitch */
+
+button {
+  background-image: linear-gradient(to right, #a701d1, #17bc25);
+  border-radius: 50px;
+  border: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: all 0.1s ease-in-out;
+}
+
+button.redpill {
+  background-image: linear-gradient(to right, #d10101, #bc1717);
+  border-radius: 50px;
+  border: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: all 0.1s ease-in-out;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 1px 2px #015ad1;
+}
+
+.modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.modal-wrapper.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.modal {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 380px;
+  max-width: 95%;
+}
+
+.modal-header {
+  background: whit;
+  background-image: linear-gradient(to right, #ffffff, #1748bc);
+  color: #fff;
+  padding: 15px 0;
+}
+
+.modal-header h3 {
+  margin: 0;
+}
+
+.modal-body {
+  padding: 15px 20px;
+}
+
+.modal-body h4 {
+  margin: 0;
+}
+
+.modal-body p {
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  margin: 10px 0 0;
+}
+
+.modal-footer {
+  background-color: #eee;
+  padding: 15px 0;
+}
+
+@font-face {
+  font-family: "Sans-serif";
+  src: url(../fonts/PORNHUT_.TTF);
+}
+
+.HowToBuy,
+.ca {
+  font-size: 1.3rem;
+}
+
+.highlight {
+  font-size: 1rem;
+}
+
+.addy {
+  color: turquoise;
+  font-family: "Courier";
+  overflow-wrap: break-word;
+}
+
+.shinybtn {
+  /* background styles */
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: yellow;
+  /*for compatibility with older browsers*/
+  background-image: linear-gradient(gold, rgb(213, 181, 0));
+  /* text styles */
+  color: blue;
+  font-weight: bol;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 3rem;
+}
+
+.shinybtn:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: calc(100% - 4px);
+  height: 50%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.2)
+  );
+}
+
+.none {
+  display: none;
+}
